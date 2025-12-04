@@ -23,3 +23,19 @@ DHT11 Pinout (Temperature & Humidity Sensor)
 | 1   | **VCC**  | +5V                             |
 | 2   | **DATA** | Digital signal → Arduino **D7** |
 | 3   | **GND**  | Ground                          |
+
+Buzzer Pinout
+| Pin | Label  | Description            |
+| --- | ------ | ---------------------- |
+| +   | SIGNAL | Arduino digital **D8** |
+| –   | GND    | Ground                 |
+
+Arduino Pin Configuration
+| Sensor / Module       | Arduino Pin  |
+| --------------------- | ------------ |
+| MQ-2 Analog Output    | **A0**       |
+| MQ-7 Analog Output    | **A1**       |
+| MQ-135 Analog Output  | **A2**       |
+| DHT11 Data            | **D7**       |
+| Buzzer Signal         | **D8**       |
+| Power for all sensors | **5V & GND** |
