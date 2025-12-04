@@ -6,14 +6,6 @@
     MQ135 -> A2
     DHT11 -> D7 (digital)
     Buzzer-> D8
-
-  Features:
-    - smoothing (moving average)
-    - robust DHT reads with retries
-    - treat saturated ADC (>=1000) as invalid
-    - non-blocking buzzer beep pattern
-    - simple hysteresis for alarms
-    - Vcc read helper (AVR only) if you want to inspect supply
 */
 
 #include <DHT.h>
