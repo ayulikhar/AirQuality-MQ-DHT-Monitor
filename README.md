@@ -1,6 +1,14 @@
 # Arduino Based Air-Quality Monitor
 Arduino-based real-time air quality monitor using MQ-2, MQ-7, MQ-135, DHT11, and buzzer alert system.
 
+# Features:
+    - smoothing (moving average)
+    - robust DHT reads with retries
+    - treat saturated ADC (>=1000) as invalid
+    - non-blocking buzzer beep pattern
+    - simple hysteresis for alarms
+    - Vcc read helper (AVR only) if you want to inspect supply
+    
 MQ-2 Pinout (Smoke, LPG, Flammable Gas Sensor)
 | Pin | Label    | Description                         |
 | --- | -------- | ----------------------------------- |
